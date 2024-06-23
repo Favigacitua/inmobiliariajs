@@ -1,0 +1,72 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    height: 100%;
+    
+}
+
+.card img{
+    height: 250px;
+}
+
+
+
+#button {
+    display: flex;
+    justify-content: center;
+   
+    margin-top: auto;
+    
+}
+
+
+#banner-venta {
+    background-image: url('/assets/img/679.jpg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+#banner-alquiler {
+    background-image: url('/assets/img/mudanza.png');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    
+}
+
+#colorfondo {
+    background-color: rgba(128,128,128,0.5);
+    padding:  1rem;
+    border-radius: 3%;
+}
+
+#iniciobutton {
+    display: flex;
+    width: 100wh;     
+    justify-content: center;  
+}
+
+.card-footer {
+ 
+}
