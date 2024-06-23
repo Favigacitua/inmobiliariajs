@@ -31,7 +31,7 @@
 
 
 #banner-venta {
-    background-image: url('/assets/img/679.jpg');
+    background-image: url('../img/679.jpg');
     background-size: cover; /* La imagen cubrirá todo el ancho y largo */
     background-position: center;
     height: 500px;
@@ -43,7 +43,7 @@
 }
 
 #banner-alquiler {
-    background-image: url('/assets/img/mudanza.png');
+    background-image: url('../img/mudanza.png');
     background-size: cover; /* La imagen cubrirá todo el ancho y largo */
     background-position: center;
     height: 500px;
