@@ -12,22 +12,39 @@
 
 .card {
     height: 100%;
-    
+    display: flex;
+  
+    flex-direction: column;
+   margin: auto;
+   padding: auto;
 }
 
 .card img{
     height: 250px;
 }
 
-
-
-#button {
+.card-body {
     display: flex;
-    justify-content: center;
-   
-    margin-top: auto;
+    flex-direction: column;
+
+    flex-grow: 1,
     
 }
+
+.card-content {
+    flex-grow: 1,
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+  justify-content: flex-end;
+
+  margin-top: auto;
+  align-items: center;
+   
+}
+
 
 
 #banner-venta {

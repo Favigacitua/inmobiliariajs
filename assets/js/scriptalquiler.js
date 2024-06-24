@@ -82,7 +82,7 @@ const propiedadesEnAlquiler = [
         descripcion:"Cabaña rustica ubicada frente al lago Calafquen, ideal para desconectarse y descanzar",
         src: "https://hips.hearstapps.com/hmg-prod/images/caban-a-disen-o-actual-1535369712.jpg?crop=0.728xw:0.814xh;0.116xw,0.186xh&resize=768:*",
         ubicacion: "camino a Coñaripe km 13, CA 362498",
-        habitaciones: " 1 habitaciones",
+        habitaciones: " 1 habitación",
         baños: " 1 baño",
         costo: "1.800",
         smoke: true,
@@ -92,6 +92,39 @@ const propiedadesEnAlquiler = [
         lavanderia:false,
         
       },
+      {
+        nombre: "Acogedor departamento mono ambiente ubicado en casco antiguo de la ciudad",
+        descripcion:"Pequeño pero acogedor e iluminado departamento monoambiente, a pocos pasos del metro, cerca del barrio universitario",
+        src: "https://casasenventahermosillo.com.mx/wp-content/uploads/2022/08/Diferencia-entre-apartamento-y-departamento-1024x683.webp",
+        ubicacion: "Mercedes 1548, Santiago CA 249575",
+        habitaciones: "1 habitación ",
+        baños: " 1 baño ",
+        costo: "1.000",
+        smoke: true ,
+        pets: false,
+        piscina: false,
+        estacionamiento:false,
+        lavanderia:true,
+        
+      },
+      {
+        nombre: "Moderno departamento frente al mar",
+        descripcion:"Moderno e iluninado departamento ubicado en la costanera frente al mar, a cuadras del barrio boohemio",
+        src: "https://www.iproyeccion.cl/content/uploads/2023/01/decorar-departamento-pequeno-aprovechar-maximo-espacio-1.jpg",
+        ubicacion: "Costanera 7546, Viña Augusto CA 45824",
+        habitaciones: " 2 habitaciones ",
+        baños: " 1 baño",
+        costo: "2.300",
+        smoke: true ,
+        pets: true,
+        piscina: false ,
+        estacionamiento:true,
+        lavanderia:true,
+        
+      }, 
+      
+      
+
   ];
   
   const alquilerContainer = document.querySelector("#alquileres");
@@ -147,10 +180,10 @@ const propiedadesEnAlquiler = [
                               ? ` <p class="text-success"> <i class="fas fa-paw"></i> Mascotas permitidas </p>`
                               : `<p class="text-danger"><i class="fa-solid fa-ban"></i>No se permiten mascotas </p>`
                           }
-                         <div class="card-footer">
-                          <a href="#" class="btn btn-dark " id="button">Contactar</a>
-                         </div>
-
+                         
+<div class="btn-container">
+            <a href="#" class="btn btn-dark " >Contactar</a>
+           </div> 
                       </div> 
                       </div>    
                       </div>`;

@@ -95,6 +95,36 @@ const propiedadesEnVenta = [
         lavanderia: true,
         
       },
+      {
+        nombre: "Domo mono ambiente con excelente vista ",
+        descripcion:"Domo mono ambiente en condominio cerrado, ubicado en la montaña con vista al Embalse del hielo, con buen acceso",
+        src: "https://domosdelmaipo.cl/wp-content/uploads/2022/07/Domo-Madre-inicio-.jpg",
+        ubicacion: "km 356 camino al cajon de Maipo, CA 468125",
+        habitaciones: " 1 habitación ",
+        baños: " 1 baño",
+        costo: "2.600",
+        smoke: true,
+        pets: true,
+        piscina: true,
+        estacionamiento: true,
+        lavanderia: false,
+        
+      },
+      {
+        nombre: "Departamentos cascada en medio de la naturalez",
+        descripcion:"Modernos y sustentables departamentos ubicados en Saltos del Laja, para convivir con la naturaleza con las comodidades de la modernidad  ",
+        src: "https://static.abc.es/media/2018/11/21/Intercontinental-Wonderland-kNpF--1240x698@abc-k6KE--940x529@abc.jpg",
+        ubicacion: "Saltos de Laja, CA 651254",
+        habitaciones: " 3 habitaciones ",
+        baños: " 2 baños ",
+        costo: "6.500",
+        smoke: true ,
+        pets: true ,
+        piscina: true,
+        estacionamiento: true,
+        lavanderia:true,
+        
+      },
   ];
   
   const ventaContainer = document.querySelector("#propiedades");
@@ -152,9 +182,11 @@ const propiedadesEnVenta = [
                               ? ` <p class="text-success"> <i class="fas fa-paw"></i> Mascotas permitidas </p>`
                               : `<p class="text-danger"><i class="fa-solid fa-ban"></i>No se permiten mascotas </p>`
                           }
-<div class="card-footer"> 
-                          <a href="#" class="btn btn-dark " id="button">Contactar</a>
-                          </div>
+
+                         <div class="btn-container">
+            <a href="#" class="btn btn-dark " >Contactar</a>
+           </div> 
+                          
                       </div> 
                       </div>    
                       </div>`;
